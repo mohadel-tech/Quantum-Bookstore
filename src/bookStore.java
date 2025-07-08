@@ -41,7 +41,7 @@ class QuantumBookstore {
             throw new Exception("Quantum book store: Book with ISBN " + isbn + " not found");
         }
 
-        if (!book.isPurchased()) {
+        if (!book.isPurchasable()) {  // FIXED: was isPurchased()
             throw new Exception("Quantum book store: Book '" + book.getTitle() + "' is not available for purchase");
         }
 

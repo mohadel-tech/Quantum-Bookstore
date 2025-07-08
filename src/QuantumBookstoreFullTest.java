@@ -1,6 +1,6 @@
 import java.util.*;
 
-class QuantumBookstoreFullTest {
+public class QuantumBookstoreFullTest { 
     public static void main(String[] args) {
         QuantumBookstore store = new QuantumBookstore();
 
@@ -8,17 +8,14 @@ class QuantumBookstoreFullTest {
         System.out.println("======================================");
 
         testAddingBooks(store);
-
         testBuyingBooks(store);
-
         testRemovingOutdatedBooks(store);
-
         testErrorScenarios(store);
 
         System.out.println("Quantum book store: Full Test Completed");
     }
 
-     public static void testAddingBooks(QuantumBookstore store) {
+    public static void testAddingBooks(QuantumBookstore store) {
         System.out.println("\nQuantum book store: Testing Adding Books");
         System.out.println("----------------------------------------");
 

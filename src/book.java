@@ -1,4 +1,3 @@
-
 abstract class book {
     protected String isbn;
     protected String title;
@@ -13,6 +12,7 @@ abstract class book {
         this.yearPublished = yearPublished;
         this.price = price;
     }
+    
     public String getIsbn() {
         return isbn;
     }
@@ -30,7 +30,7 @@ abstract class book {
     }
 
     public abstract String getBookType();
-    public abstract boolean isPurchased();
+    public abstract boolean isPurchasable();  // FIXED: was isPurchased()
     public abstract double processPurchase(int quantity, String email, String address) throws Exception;
 
     @Override

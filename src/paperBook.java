@@ -19,7 +19,7 @@ class paperBook extends book {
     }
     
     @Override
-    public boolean isPurchased() {
+    public boolean isPurchasable() { 
         return stock > 0;
     }
     
@@ -32,7 +32,7 @@ class paperBook extends book {
         stock -= quantity;
         double totalAmount = price * quantity;
         
-        // Send to shipping service
+       
         ShippingService.shipBook(this, quantity, address);
         
         return totalAmount;

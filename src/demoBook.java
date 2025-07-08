@@ -10,7 +10,7 @@ class demoBook extends book {
     }
     
     @Override
-    public boolean isPurchased() {
+    public boolean isPurchasable() { 
         return false; 
     }
     
