@@ -3,8 +3,10 @@
 
 A Java-based bookstore management system that demonstrates object-oriented programming principles including inheritance, polymorphism, and abstract classes.
 
-![image](https://github.com/user-attachments/assets/69077027-094c-490c-aa2f-5675d7ea7119)
-![image](https://github.com/user-attachments/assets/3084ef37-bbd8-432e-a55e-ac7b9766c988)
+## Test Results
+
+![Test Output Part 1]![image](https://github.com/user-attachments/assets/69077027-094c-490c-aa2f-5675d7ea7119)
+![Test Output Part 2]![image](https://github.com/user-attachments/assets/3084ef37-bbd8-432e-a55e-ac7b9766c988)
 
 
 ## Overview
@@ -70,27 +72,7 @@ The application runs comprehensive tests covering:
 3. **Removing Outdated Books**: Automatically removes books older than specified threshold
 4. **Error Scenarios**: Tests invalid purchase attempts
 
-## Test Results
 
-Below are screenshots showing the complete test execution:
-
-### Initial Test Run and Book Addition
-![Test Output Part 1](image1.png)
-
-The first image shows:
-- Starting the full test suite
-- Adding various book types to inventory
-- Current inventory display with book details
-- Successful purchase operations with shipping and email notifications
-
-### Cleanup and Error Handling
-![Test Output Part 2](image2.png)
-
-The second image demonstrates:
-- Removal of outdated books (older than 15 years)
-- Updated inventory after cleanup
-- Error scenario testing for invalid purchases
-- Completion of the full test suite
 
 ## Key Features Demonstrated
 
